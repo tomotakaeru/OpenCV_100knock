@@ -48,7 +48,7 @@ for i in range(h):
         G = img[i, j, 1]
         R = img[i, j, 2]
         H, S, V = RGBtoHSV(R / 256, G / 256, B / 256)
-        R, G, B = HSVtoRGB(H + 180, S, V)
+        R, G, B = HSVtoRGB((H + 180) % 360, S, V)
         img[i, j, 0] = B * 256
         img[i, j, 1] = G * 256
         img[i, j, 2] = R * 256
