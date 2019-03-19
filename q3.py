@@ -1,3 +1,8 @@
+"""
+二値化
+y =  0 (if y < 128)
+     255 (else) 
+"""
 import cv2
 import numpy as np
 

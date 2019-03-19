@@ -1,3 +1,7 @@
+"""
+チャネル入れ替え
+RGB→BGR
+"""
 import cv2
 
 img_original = cv2.imread("sample.jpg")

@@ -1,3 +1,7 @@
+"""
+平均プーリング
+画像をグリッド分割し，領域内平均値で埋める
+"""
 import cv2
 import numpy as np
 

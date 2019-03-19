@@ -1,3 +1,7 @@
+"""
+グレースケール化
+Y = 0.2126 * R + 0.7152 * G + 0.0722 * B
+"""
 import cv2
 import numpy as np
 

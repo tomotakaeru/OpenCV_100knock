@@ -1,3 +1,7 @@
+"""
+HSV変換
+色相Hを反転
+"""
 import cv2
 import numpy as np
 

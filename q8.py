@@ -1,3 +1,7 @@
+"""
+Maxプーリング
+画像をグリッド分割し，領域内最大値で埋める
+"""
 import cv2
 import numpy as np
 

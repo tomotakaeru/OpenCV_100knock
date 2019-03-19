@@ -1,3 +1,7 @@
+"""
+大津の二値化
+分離度Sb^2 / Sw^2 = Sb^2 / (St^2 - Sb^2)が最大，つまりクラス間分散Sb^2が最大となる閾値tを自動決定する
+"""
 import cv2
 import numpy as np
 

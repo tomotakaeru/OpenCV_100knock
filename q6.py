@@ -1,3 +1,7 @@
+"""
+減色処理
+RGBの各画素値を四値に量子化
+"""
 import cv2
 import numpy as np
 
